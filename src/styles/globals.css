@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --border: 240 5.9% 90%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --accent: 183 65% 35%;
+    --accent-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+  }
+
+  .dark {
+     --background: 222 47% 11%;           /* deep blue-gray */
+     --foreground: 210 20% 98%;           /* near white */
+     --border: 220 16% 22%;               /* dark slate */
+     --destructive: 0 72% 51%;            /* vibrant red */
+     --destructive-foreground: 0 0% 100%; /* white */
+     --accent: 200 98% 39%;               /* bright blue */
+     --accent-foreground: 0 0% 100%;      /* white */
+     --muted: 222 20% 18%;                /* muted blue-gray */
+     --muted-foreground: 210 10% 60%;     /* soft gray */
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply min-h-screen bg-background text-foreground;
+  }
+}
