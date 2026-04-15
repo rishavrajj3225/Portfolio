@@ -9,7 +9,16 @@ import {
   SiDjango,
   SiFastapi,
   SiDocker,
+  SiGnubash,
+  SiSpringboot,
+  SiMysql,
+  SiPostgresql,
+  SiOpenapiinitiative,
+  SiOpenai,
+  SiPrometheus,
+  SiNewrelic
 } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 import JavascriptSvg from "@/public/icons/javascript.svg";
@@ -48,6 +57,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiC,
       },
       {
+        name: "Java",
+        icon: FaJava,
+      },
+      {
         name: "Golang",
         icon: SiGo,
       },
@@ -64,8 +77,8 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: PythonSvg,
       },
       {
-        name: "Assembly",
-        icon: SiAssemblyscript,
+        name: "Bash",
+        icon: SiGnubash,
       },
     ],
   },
@@ -73,16 +86,16 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     sectionName: "Backend",
     skills: [
       {
-        name: "Nodejs",
+        name: "Spring Boot",
+        icon: SiSpringboot,
+      },
+      {
+        name: "Node.js",
         icon: NodejsSvg,
       },
       {
         name: "Express",
         icon: SiExpress,
-      },
-      {
-        name: "Websockets",
-        icon: SiSocketdotio,
       },
       {
         name: "Django",
@@ -95,7 +108,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     ],
   },
   {
-    sectionName: "Libraries and Frameworks",
+    sectionName: "Frontend",
     skills: [
       {
         name: "Nextjs",
@@ -106,16 +119,8 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: ReactjsSvg,
       },
       {
-        name: "Nodejs",
-        icon: NodejsSvg,
-      },
-      {
         name: "Redux",
         icon: ReduxSvg,
-      },
-      {
-        name: "Vite",
-        icon: ViteSvg,
       },
       {
         name: "Tailwindcss",
@@ -131,18 +136,26 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: MongoDBSvg,
       },
       {
-        name: "Postgress",
+        name: "PostgreSQL",
         icon: PostgressSvg,
       },
       {
+        name: "MySQL",
+        icon: SiMysql,
+      },
+      {
         name: "PG vector",
-        icon: GoalIcon,
+        icon: SiPostgresql,
       },
     ],
   },
   {
     sectionName: "Tools and Technologies",
     skills: [
+      {
+        name: "Websockets",
+        icon: SiSocketdotio,
+      },
       {
         name: "Git",
         icon: GitSvg,
@@ -153,15 +166,11 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       },
       {
         name: "Restful APIs",
-        icon: GoalIcon,
+        icon: SiOpenapiinitiative,
       },
       {
         name: "MCP",
-        icon: GoalIcon,
-      },
-      {
-        name: "MCP",
-        icon: GoalIcon,
+        icon: SiOpenai,
       },
       {
         name: "AWS",
@@ -171,6 +180,14 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Postman",
         icon: PostmanSvg,
       },
+      {
+        name: "Signoz",
+        icon: SiPrometheus,
+      },
+      {
+        name: "New Relic",
+        icon: SiNewrelic,
+      }
     ],
   },
 ];
