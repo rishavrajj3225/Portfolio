@@ -10,8 +10,11 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     date: "April 2025 - Present",
     location: "Hyderabad, India",
     description: `
--- Understanding and analyzing the existing codebase of Cornerstone's Learning Management System (LMS) to identify areas where AI can be integrated to enhance user experience and functionality.
-
+-- Applied semantic caching techniques to enhance the performance and cost-effectiveness of AI inference pipelines for Workforce AI.
+-- Built persistent chat history for Workforce AI, enabling conversation continuity and improving the user experience.
+--  Optimized the AI inference pipeline, reducing average chat response latency by 42.5% (from 4 minutes to 2.3 minutes).
+-- Designed and implemented end-to-end theme generation and filtering capabilities for the Goal Dashboard, enhancing discoverability of key insights.
+-- Enhanced the reliability of AI insights across Employee Snapshot, Goal Analytics, and PR Analytics by introducing thresholding and anchoring techniques, resulting in more consistent outputs.
     `,
   },
   {
