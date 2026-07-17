@@ -18,7 +18,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     `,
   },
   {
-    title: "Software Developer Intern",
+    title: "Software Developer",
     organisation: {
       name: "Gokwik",
       href: "https://www.gokwik.co/",

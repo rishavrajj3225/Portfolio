@@ -47,19 +47,44 @@ export default function LandingHero() {
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
-                I'm a results-driven software Engineer from IIT (ISM) Dhanbad, specializing in building scalable, high-performance, and user-focused web applications. I had delivered production-grade products with measurable impact, including platforms serving 2,400+ monthly users and implementing real-time, user-centric features. 
-                Proficient in{" "}
+                I'm a results-driven{" "}
+                <span className="font-semibold text-accent">
+                  Software Development Engineer (AI)
+                </span>{" "}
+                and an IIT (ISM) Dhanbad graduate, passionate about building
+                scalable, AI-powered, and high-performance applications. I have
+                delivered production-grade features with measurable impact,
+                including reducing AI response latency by{" "}
+                <span className="font-semibold text-accent">42.5%</span>,
+                improving the reliability of enterprise AI insights, and
+                developing products serving over{" "}
+                <span className="font-semibold text-accent">
+                  2,400+ monthly users
+                </span>
+                . My experience spans Generative AI, Retrieval-Augmented
+                Generation (RAG), backend engineering, and distributed systems,
+                with a strong focus on creating reliable, user-centric
+                solutions. Proficient in{" "}
                 <span className="font-semibold text-accent">C++</span>,{" "}
-                <span className="font-semibold text-accent">Golang</span>,{" "}
-                <span className="font-semibold text-accent">TypeSript</span>,{" "}
-                <span className="font-semibold text-accent">JavaScript</span>,{" "}
+                <span className="font-semibold text-accent">Java</span>,{" "}
                 <span className="font-semibold text-accent">Python</span>,{" "}
-                <span className="font-semibold text-accent">NextJS</span>,{" "}
-                <span className="font-semibold text-accent">NodeJs</span>,{" "}
-                <span className="font-semibold text-accent">Mongodb</span>,{" "}
-                <span className="font-semibold text-accent">Postgres</span>,{" "}
-                <span className="font-semibold text-accent">VectorDb</span>,{" "}
-                I'm focusing on optimizing performance, enhancing user experience, and building reliable, scalable systems. I'm consistently stays updated with modern tools and best practices to deliver efficient and impactful solutions.
+                <span className="font-semibold text-accent">TypeScript</span>,{" "}
+                <span className="font-semibold text-accent">Spring Boot</span>,{" "}
+                <span className="font-semibold text-accent">Next.js</span>,{" "}
+                <span className="font-semibold text-accent">React</span>,{" "}
+                <span className="font-semibold text-accent">Node.js</span>,{" "}
+                <span className="font-semibold text-accent">Docker</span>,{" "}
+                <span className="font-semibold text-accent">AWS</span>,{" "}
+                <span className="font-semibold text-accent">MongoDB</span>,{" "}
+                <span className="font-semibold text-accent">MySQL</span>,{" "}
+                <span className="font-semibold text-accent">VectorDB</span>,{" "}
+                <span className="font-semibold text-accent">ClickHouse</span>.{" "}
+                I'm passionate about optimizing system performance, designing
+                scalable backend architectures, and building AI-driven products
+                using LLMs and RAG. I continuously explore modern technologies,
+                open-source contributions, and software engineering best
+                practices to deliver efficient, impactful, and production-ready
+                solutions.
               </div>
             </FadeUp>
           </AnimatePresence>

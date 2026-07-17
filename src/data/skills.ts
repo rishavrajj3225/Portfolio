@@ -16,7 +16,15 @@ import {
   SiOpenapiinitiative,
   SiOpenai,
   SiPrometheus,
-  SiNewrelic
+  SiNewrelic,
+  SiRedis,
+  SiClickhouse,
+  SiAmazondynamodb,
+  SiKibana,
+  SiSplunk,
+  SiJenkins,
+  SiKubernetes,
+  SiTerraform,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
@@ -42,7 +50,17 @@ import PostgressSvg from "@/public/icons/postgresql.svg";
 import GitSvg from "@/public/icons/git.svg";
 import AwsSvg from "@/public/icons/aws.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
-import { GoalIcon } from "lucide-react";
+import {
+  Braces,
+  Boxes,
+  Layers3,
+  Cpu,
+  Database,
+  SearchCode,
+  Workflow,
+  Brain,
+  CloudCog,
+} from "lucide-react";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -63,10 +81,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Golang",
         icon: SiGo,
-      },
-      {
-        name: "Javascript",
-        icon: JavascriptSvg,
       },
       {
         name: "Typescript",
@@ -108,27 +122,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     ],
   },
   {
-    sectionName: "Frontend",
-    skills: [
-      {
-        name: "Nextjs",
-        icon: SiNextdotjs,
-      },
-      {
-        name: "Reactjs",
-        icon: ReactjsSvg,
-      },
-      {
-        name: "Redux",
-        icon: ReduxSvg,
-      },
-      {
-        name: "Tailwindcss",
-        icon: TailwindcssSvg,
-      },
-    ],
-  },
-  {
     sectionName: "Databases ",
     skills: [
       {
@@ -146,6 +139,39 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "PG vector",
         icon: SiPostgresql,
+      },
+      {
+        name: "Redis",
+        icon: SiRedis,
+      },
+      {
+        name: "Clickhouse",
+        icon: SiClickhouse,
+      },
+      {
+        name: "DynamoDB",
+        icon: SiAmazondynamodb,
+      }
+    ],
+  },
+  {
+    sectionName: "Frontend",
+    skills: [
+      {
+        name: "Nextjs",
+        icon: SiNextdotjs,
+      },
+      {
+        name: "Reactjs",
+        icon: ReactjsSvg,
+      },
+      {
+        name: "Redux",
+        icon: ReduxSvg,
+      },
+      {
+        name: "Tailwindcss",
+        icon: TailwindcssSvg,
       },
     ],
   },
@@ -187,7 +213,73 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "New Relic",
         icon: SiNewrelic,
+      },
+      {
+        name: "Kibana",
+        icon: SiKibana,
+      },
+      {
+        name: "Splunk",
+        icon: SiSplunk,
       }
     ],
   },
+  {
+    sectionName: "DevOps",
+    skills: [
+      {
+        name: "Jenkins",
+        icon: SiJenkins,
+      },
+      {
+        name: "Kubernetes",
+        icon: SiKubernetes,
+      },
+      {
+        name: "Terraform",
+        icon: SiTerraform,
+      }
+    ]
+  },
+  {
+    sectionName: "Conceptual Knowledge",
+    skills: [
+      {
+        name: "Data Structures and Algorithms",
+        icon: Braces,
+      },
+      {
+        name : "Object Oriented Programming",
+        icon: Boxes,
+      },
+      {
+        name: "Low Level Design",
+        icon: Layers3,
+      },
+      {
+        name: "Operating Systems",
+        icon: Cpu,
+      },
+      {
+        name: "DataBase Management Systems",
+        icon: Database, 
+      },
+      {
+        name: "Retrieval Augmented Generation",
+        icon: SearchCode, 
+      },
+      {
+        name: "Langchain",
+        icon: Workflow, 
+      },
+      {
+        name: "AI/ML",
+        icon: Brain,
+      },
+      {
+        name: "Cloud Computing",
+        icon: CloudCog,
+      }
+    ] 
+  }
 ];
